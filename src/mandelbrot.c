@@ -33,8 +33,8 @@ Mandelbrot mandelbrot_new(int resolution[2]) {
 
 void set_mandelbrot_location(Mandelbrot *mandelbrot,
                              double location[2]) {
-    mandelbrot->offset_y = location[0];
-    mandelbrot->offset_x = location[1];
+    mandelbrot->offset_x = location[0];
+    mandelbrot->offset_y = location[1];
 }
 
 void set_mandelbrot_zoom(Mandelbrot *mandelbrot,
